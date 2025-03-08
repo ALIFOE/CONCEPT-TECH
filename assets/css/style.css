@@ -1964,14 +1964,14 @@ h6 {
         Forms
 ----------------------------*/
 label {
-  font-weight: 700;
+  font-weight: 1500;
   line-height: 1;
   margin-bottom: 10px;
   color: #282828;
 }
 
 label.error {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   color: red;
   margin-bottom: 0;
@@ -1980,12 +1980,12 @@ label.error {
 
 .form-group {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .form-control {
   height: 50px;
-  font-size: 14px;
+  font-size: 12px;
   padding: 0 0 0 20px;
   border-radius: 5px;
   border: 1px solid #f4f4f4;
@@ -1998,7 +1998,7 @@ label.error {
 }
 
 textarea.form-control {
-  min-height: 105px;
+  min-height: 200px;
   padding-top: 10px;
 }
 
@@ -2039,11 +2039,11 @@ textarea.form-control {
 .label-radio {
   display: block;
   position: relative;
-  padding-left: 26px;
+  padding-left: 50px;
   margin-bottom: 0;
   cursor: pointer;
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 600;
   color: #9b9b9b;
 }
 
@@ -2641,8 +2641,8 @@ textarea.form-control {
 /* Navbar */
 .navbar {
   padding: 0;
-  height: 90px;
-  max-height: 90px;
+  height: 100px !important;
+  max-height: 110px;
   background-color: #ffffff;
   /*  dropdown-menu  */
 }
@@ -2660,8 +2660,8 @@ textarea.form-control {
 }
 .logo{
   
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
 }
 .navbar .logo-light {
   display: none;
@@ -5081,6 +5081,13 @@ textarea.form-control {
 .features-layout5 .feature-item .feature__desc {
   display: -webkit-box;
   -webkit-line-clamp: 3;
+  line-clamp: 3;
+  line-clamp: 3;
+  line-clamp: 3;
+  line-clamp: 3;
+  line-clamp: 3;
+  line-clamp: 3;
+  line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -5495,6 +5502,7 @@ textarea.form-control {
   margin-bottom: 11px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
+  line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -5516,7 +5524,7 @@ textarea.form-control {
   margin-top: 18px;
   margin-bottom: 20px;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  /* -webkit-line-clamp: 3; */
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -7447,6 +7455,7 @@ textarea.form-control {
 
 .widget-search .widget__form-search .form-control:focus {
   border-color: #4aab3d;
+
 }
 
 .widget-search .widget__form-search .btn {
@@ -8920,6 +8929,7 @@ textarea.form-control {
   height: 50px;
   border: 0;
   outline: 0;
+  appearance: textfield;
   -moz-appearance: textfield;
 }
 
